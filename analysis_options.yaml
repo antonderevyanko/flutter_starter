@@ -1,0 +1,50 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - '**/*.config.dart'
+    - '**/*.freezed.dart'
+    - '**/*.gr.dart'
+    - '**/*.g.dart'
+    - '**/*.i69n.dart'
+    - 'mason_creator/**'
+
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at
+  # https://dart-lang.github.io/linter/lints/index.html.
+  rules:
+    avoid_types_as_parameter_names: true
+    always_put_control_body_on_new_line: true
+    always_put_required_named_parameters_first: true
+    avoid_equals_and_hash_code_on_mutable_classes: true
+    avoid_field_initializers_in_const_classes: true
+    avoid_redundant_argument_values: true
+    avoid_renaming_method_parameters: true
+    avoid_types_on_closure_parameters: true
+    avoid_unnecessary_containers: true
+    camel_case_types: true
+    camel_case_extensions: true
+    omit_local_variable_types: true
+    overridden_fields: true
+    non_constant_identifier_names: true
+    prefer_adjacent_string_concatenation: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_constructors_over_static_methods: true
+    prefer_expression_function_bodies: true
+    prefer_single_quotes: true
+    prefer_interpolation_to_compose_strings: true
+    sort_constructors_first: true
+    unnecessary_statements: true
+    unnecessary_this: true
+    unnecessary_new: true
+    unnecessary_lambdas: true
+    unnecessary_brace_in_string_interps: true
+    use_key_in_widget_constructors: true
+    sort_pub_dependencies: false
+    unawaited_futures: true
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options

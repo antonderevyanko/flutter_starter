@@ -1,0 +1,33 @@
+name: starter
+
+packages:
+  - ../package/*
+
+scripts:
+  analyze:
+    run: |
+      melos exec -c 1 -- dart analyze
+    description: |
+      Run `dart analyze` in all packages.
+       - Note: you can also rely on your IDEs Dart Analysis / Issues window.
+
+  format:
+    run: |
+      melos exec -- dart format --output=none --set-exit-if-changed lib
+    description: |
+      Run `dart format` in all packages.
+       - Note: you can also rely on your IDEs
+
+  flutter:pub_get:
+    run: melos exec -- dart pub get
+    description:
+      Runs `dart pub get` in all flutter packages, to generate files
+      which `melos bootstrap` doesn't.    
+
+  flutter:build_runner_with_pub:
+    run: melos run flutter:pub_get --no-select && melos run generate:flutter --no-select
+    description: Build all generated files for Dart & Flutter packages in this project. 
+
+  generate:flutter:
+    run: melos exec -c 1 -- "flutter pub run build_runner build --delete-conflicting-outputs"
+    description: Build all generated files for Flutter packages in this project.          
