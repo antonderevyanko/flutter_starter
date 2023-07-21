@@ -4,6 +4,8 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:starter/injection/injection.dart' as injection;
 import 'package:starter/localization/localization.dart';
+import 'package:feature_example/src/localization/feature_example_localization.dart'
+    as feature_example;
 
 void main() {
   injection.configureInjection();
@@ -22,6 +24,7 @@ class MyApp extends StatelessWidget {
           GlobalCupertinoLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate,
           StarterLocalizations.delegate,
+          feature_example.FeatureExampleLocalization.delegate,
         ],
         supportedLocales: StarterLocalizations.supportedLocales,
         theme: ThemeData(
