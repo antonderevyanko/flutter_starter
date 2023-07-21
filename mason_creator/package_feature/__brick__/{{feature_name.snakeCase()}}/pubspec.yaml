@@ -23,6 +23,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   freezed: ^2.4.1
+  i69n: ^2.1.0
   injectable_generator: ^2.1.6
 
 flutter:
