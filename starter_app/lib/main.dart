@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) => MaterialApp(
-        title: StarterLocalizations.of(context).app_title,
         localizationsDelegates: const [
           GlobalMaterialLocalizations.delegate,
           DefaultCupertinoLocalizations.delegate,
