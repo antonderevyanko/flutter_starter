@@ -3,7 +3,7 @@
 
 # flutter-starter 
 
-This is the project Starter
+This is the project Starter. It can be used to start new project with predefined modular approach.
 
 ## project structure
 
