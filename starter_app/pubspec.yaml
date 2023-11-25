@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   bloc: ^8.1.2
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.6
   feature_example:
     path: ../package/feature_example
   flutter:
@@ -17,19 +17,18 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   freezed_annotation: ^2.4.1
-  get_it: ^7.6.0
-  i69n: ^2.1.0
-  injectable: ^2.1.2
+  get_it: ^7.6.4
+  injectable: ^2.3.2
 
 dev_dependencies:
-  bdd_widget_test: ^1.6.0
+  bdd_widget_test: ^1.6.1
   build_runner: ^2.4.6
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
   flutter_test:
     sdk: flutter
-  freezed: ^2.4.1
-  injectable_generator: ^2.1.6
-  melos: ^3.1.1
+  freezed: ^2.4.5
+  injectable_generator: ^2.4.1
+  melos: ^3.2.0
 
 flutter:
   uses-material-design: true
