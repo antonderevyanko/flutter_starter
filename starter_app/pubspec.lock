@@ -302,7 +302,7 @@ packages:
     source: hosted
     version: "3.0.1"
   flutter_localizations:
-    dependency: transitive
+    dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -383,6 +383,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  i69n:
+    dependency: "direct main"
+    description:
+      name: i69n
+      sha256: "491fa348fd15f2e55684f7fc5f5bbf6c918d5a4b7e62f65cb0359d4727778901"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
   injectable:
     dependency: "direct main"
     description:

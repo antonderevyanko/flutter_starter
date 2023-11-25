@@ -1,4 +1,4 @@
-# Faq
+# FeatureExample
 
 ## Additional setup steps
 
@@ -9,12 +9,12 @@ None.
 To use this package in your application:
 1. Add the package as the dependency to your `pubspec.yaml` file, like:
 ```yaml
-  faq:
-    path: ../package/faq
+  feature_example:
+    path: ../package/feature_example
 ```
 2. Add injection initialization (`app/lib/injection/injection.dart`):
 ```dart
-import 'package:faq/faq.dart' as faq;
+import 'package:feature_example/feature_example.dart' as feature_example;
 ...
 faq.configureInjection(getIt, environment: environment);
 ```
